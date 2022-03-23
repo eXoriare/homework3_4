@@ -1,0 +1,18 @@
+module.exports = {
+  env: {
+    commonjs: true,
+    es2021: true,
+    node: true,
+  },
+  extends: [
+    'airbnb-base',
+    'plugin:import/typescript',
+  ],
+  parserOptions: {
+    ecmaVersion: 12,
+  },
+  rules: {
+    semi: ['error', 'never'],
+    'no-console': 0,
+  },
+}
